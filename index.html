@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="idcard">
+     
+        
+<h1 id="card"></h1>
+<img id="img1" >
+<p id="name"></p>
+<p id="dob"></p>
+<p id="mbl"></p>
+<p id="addr"></p>
+
+</div>
+
+
+
+
+    <script>
+
+// let main=document.getElementsById("idcard");
+
+
+let main_d = document.getElementById("idcard");
+main_d.style.backgroundColor="aqua"
+main_d.style.width="30%";
+main_d.style.paddingLeft="40px"
+main_d.style.border="2px solid black"
+
+
+//maind.style.border="2px solid black"
+ let cardvar =document.getElementById("card")
+ cardvar.innerHTML="ID CARD"
+ let image=document.getElementById("img1")
+ image.setAttribute("src","./SAVE_20221017_204128.jpg")
+ image.style.height="220px"
+ image.style.borderRadius="30%"
+ let name_1 = document.getElementById("name")
+ name_1.innerHTML=("<b><i>Pradeep<i><b>")
+let date=document.getElementById("dob")
+date.innerHTML=("DOB")
+let mobile=document.getElementById("mbl")
+mobile.innerHTML=("MOBILE NUMBER")
+document.getElementById("addr")
+addr.innerHTML=("ADDRESS")
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
