@@ -28,9 +28,14 @@
 
 
 let main_d = document.getElementById("idcard");
-main_d.style.backgroundColor="aqua"
-main_d.style.width="30%";
-main_d.style.paddingLeft="40px"
+main_d.style.width="220px"
+main_d.style.backgroundImage = "url(./id_c1.jpg)"
+main_d.style.objectFit="cover"
+// main_d.style.backgroundImage = "100%"
+main_d.style.justifyItems = "center"
+main_d.style.alignSelf="centrew"
+// main_d.style.width="30%";
+// main_d.style.paddingLeft="2px"
 main_d.style.border="2px solid black"
 
 
@@ -39,16 +44,17 @@ main_d.style.border="2px solid black"
  cardvar.innerHTML="ID CARD"
  let image=document.getElementById("img1")
  image.setAttribute("src","./SAVE_20221017_204128.jpg")
- image.style.height="220px"
- image.style.borderRadius="30%"
+ image.style.height="120px"
+ image.style.width="120px"
+ image.style.borderRadius="100%"
  let name_1 = document.getElementById("name")
- name_1.innerHTML=("<b><i>Pradeep<i><b>")
+ name_1.innerHTML=("<span>NAME :  <b><i>Pradeep<i><b>")
 let date=document.getElementById("dob")
-date.innerHTML=("DOB")
+date.innerHTML=("DOB :<span>13/08/2002</span>")
 let mobile=document.getElementById("mbl")
-mobile.innerHTML=("MOBILE NUMBER")
+mobile.innerHTML=("MBL no : <span>9663333691</span>")
 document.getElementById("addr")
-addr.innerHTML=("ADDRESS")
+addr.innerHTML=("ADDRESS : <span>Hyderabad</span>")
 
 
 
